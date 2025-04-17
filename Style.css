@@ -1,0 +1,52 @@
+/*selector {
+
+}
+*/
+
+/* {
+	text-align: right;
+}*/
+body {
+	background-image: url(12.jpg) ;
+	background-size: cover;
+}
+h2 + p {
+	color: #AA8939;
+    text-align:center;
+	border: 5px solid rgba(252, 254, 169,0.5);
+	cursor: pointer;
+}
+
+
+p {
+	text-decoration: underline;
+	text-transform: uppercase;
+	line-height: 50 px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 180%;
+	 font-family: "Poiret One", sans-serif;
+
+
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+}
+
+.text:first-child {
+	border: 5px dashed green;
+}
+.active {
+	color:red;
+}
+
+#div1 {
+	background:rgba(0,255,0,0.2);
+}
+
+#div2 {
+	background:rgba(0,0,255,0.2);
+}
+
